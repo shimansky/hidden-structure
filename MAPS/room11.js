@@ -1,0 +1,36 @@
+var map =[
+["we","we","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w",],
+["we","we","w","o","o","o","o","o","o","o","ud","oa","oa","ud","oa","oa","oa","gr","bg","w","o","o","o","wc","o","ud","o","o","o","w",],
+["we","we","w","o","w","w","w","w","w","w","w","o","oa","w","gr","gr","oa","gr","bg","w","o","wc","o","o","o","w","o","o","wc","w",],
+["we","we","w","o","w","we","we","we","we","we","w","o","oa","w","gr","gr","oa","gr","gr","w","w","w","w","w","w","w","o","wc","wc","w",],
+["we","we","w","o","w","we","we","we","we","we","w","o","oa","w","bg","gr","oa","gr","gr","w","bg","gr","gr","bg","gr","w","o","o","o","w",],
+["w","w","w","ud","w","w","we","we","we","we","w","w","w","w","gr","gr","oa","oa","oa","ud","oa","oa","oa","oa","oa","ud","oa","oa","o","w",],
+["w","o","o","o","o","w","w","w","w","w","w","o","oa","w","w","w","ud","w","w","w","gr","gr","gr","oa","bg","w","o","oa","o","w",],
+["w","wp","o","oa","o","ud","o","o","o","ws","oa","oa","oa","w","gr","gr","oa","gr","bg","w","gr","gr","gr","oa","gr","w","o","oa","o","w",],
+["w","o","oa","oa","o","w","w","w","w","w","o","o","oa","w","gr","gr","oa","gr","gr","w","gr","bg","gr","oa","gr","w","o","oa","o","w",],
+["w","wp","o","o","o","w","we","we","we","w","wc","o","oa","w","gr","gr","oa","bg","gr","w","gr","gr","gr","oa","gr","w","o","oa","o","w",],
+["w","w","w","w","w","w","we","we","we","w","wc","o","oa","ud","oa","oa","oa","oa","oa","ud","oa","oa","oa","oa","gr","w","o","oa","o","w",],
+["we","we","w","o","w","we","we","we","we","w","o","o","oa","w","gr","gr","gr","gr","gr","w","ud","w","w","w","w","w","o","oa","o","w",],
+["we","we","w","o","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","oa","w","o","o","wc","o","o","oa","o","w",],
+["we","we","w","o","ud","o","o","o","o","ud","oa","oa","w","oa","oa","oa","oa","oa","oa","oa","oa","w","wc","o","o","o","o","oa","o","w",],
+["we","we","w","o","w","w","w","w","w","w","o","oa","w","ow","w","op","ow","op","w","wc","wc","w","w","w","w","w","w","oa","o","w",],
+["we","we","w","o","w","we","we","we","we","w","o","oa","w","ow","b","op","ow","op","b","ow","o","w","o","o","o","o","w","oa","o","w",],
+["w","w","w","ud","w","w","we","we","we","w","o","oa","ud","oa","oa","op","ow","op","oa","ow","o","w","wc","wc","o","o","ws","oa","o","w",],
+["w","wp","o","o","o","w","we","we","we","w","o","oa","w","ow","b","op","ow","op","b","ow","o","w","wc","o","o","wc","w","oa","o","w",],
+["w","o","o","o","oa","w","we","we","we","w","o","oa","w","ow","w","op","ow","op","w","ow","o","w","w","w","w","w","w","oa","o","w",],
+["w","oa","o","o","o","w","we","we","we","w","o","oa","w","ow","b","op","ow","wc","b","ow","o","w","grass","grass","grass","grass","ud","oa","o","w",],
+["w","wp","o","o","o","w","we","we","we","w","o","oa","ud","oa","oa","op","ow","op","oa","ow","o","w","gr","gr","gr","gr","w","oa","o","w",],
+["w","w","w","ud","w","w","we","we","we","w","o","oa","w","ow","b","op","ow","op","b","ow","o","w","w","w","w","w","w","oa","o","w",],
+["we","we","w","o","w","we","we","we","we","w","o","oa","w","wc","w","op","ow","op","w","ow","o","w","grass","grass","grass","grass","ud","oa","o","w",],
+["we","we","w","o","w","we","we","we","we","w","o","oa","w","ow","b","op","ow","op","b","ow","o","w","gr","gr","gr","gr","w","oa","o","w",],
+["we","we","w","o","w","we","we","we","we","w","o","oa","ud","oa","oa","op","ow","op","oa","ow","wc","w","w","w","w","w","w","oa","o","w",],
+["w","w","w","ud","w","w","we","we","we","w","o","oa","w","ow","b","op","ow","op","b","ow","wc","w","grass","grass","grass","grass","ud","oa","o","w",],
+["w","o","oa","o","o","w","we","we","we","w","o","oa","w","ow","w","op","ow","op","w","ow","o","w","gr","gr","gr","gr","w","oa","o","w",],
+["w","o","o","o","o","w","we","we","we","w","o","oa","w","ow","b","op","ow","op","b","ow","o","w","w","w","w","w","w","w","w","w",],
+["w","wp","o","oa","wp","w","we","we","we","w","o","oa","w","oa","oa","oa","oa","oa","oa","o","o","w","we","we","we","we","we","we","we","we",],
+["w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","w","we","we","we","we","we","we","we","we",],
+];
+var teleportX = -1000;
+   var teleportY = -200;
+   var moduls = 5;
+
